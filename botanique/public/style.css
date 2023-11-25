@@ -1,0 +1,966 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('roboto.eot');
+}
+header {
+  width: 1,280px;
+  height: 48px;
+  padding: 0px, 24px, 0px, 24px;
+  justify: space-between;
+  background: #FFFFFF;
+}
+a {
+  text-decoration: none;
+}
+.analytics-hr {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.main-hr {
+  margin-left: -12px;
+  margin-right: 10px;
+  color: #23B04A;
+}
+.Dash {
+  float: left; 
+  width: 164px;
+  height: 48px;
+  .Content {
+    margin-left: 19px;
+    margin-right: 19px;
+    width: 126px;
+    height: 48px;
+    padding: 16px;
+    gap: 8px;
+    .Tab {
+      margin-top: 16px;
+      margin-bottom: 16px;
+      margin-left: 16px;
+      margin-right: 16px;
+      width: 94px;
+      height: 16px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 1.25px;
+      text-align: center;
+      color: #23B04A;
+    }
+    .Tab2 {
+      margin-top: 16px;
+      margin-bottom: 16px;
+      margin-left: 16px;
+      margin-right: 16px;
+      width: 94px;
+      height: 16px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 1.25px;
+      text-align: center;
+      color: #00000099;
+    }
+  }
+}
+.Analitics {
+  float: left;
+  width: 164px;
+  height: 48px;
+  .Content {
+    margin-top: 16px;
+    margin-bottom: 2px;
+    margin-left: 18px;
+    margin-right: 18px; 
+    width: 128px;
+    height: 46px;
+    gap: 8px;
+    .Tab {
+      margin-top: 16px;
+      margin-bottom: 14px;
+      margin-left: 16px;
+      margin-right: 16px;
+      width: 96px;
+      height: 16px;
+      Name: Button;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 1.25px;
+      text-align: center;
+      color: #00000099;
+    }
+    .Tab2 {
+      margin-top: 16px;
+      margin-bottom: 14px;
+      margin-left: 16px;
+      margin-right: 16px;
+      width: 96px;
+      height: 16px;
+      Name: Button;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 1.25px;
+      text-align: center;
+      color: #23B04A;
+    }
+  }
+}
+header > .User {
+  float: right;
+  width: 32px;
+  height: 32px;
+  gap: 8px;
+  margin-right: 24px;
+  margin-top: -8px;
+}
+.Menu {
+  float: left;
+  margin-right: 426px;
+  margin-left: 526px;
+  max-width: 952px;
+  width: Hug(328px);
+  height: Hug(48px);
+}
+body {
+  background: #f5f5f5;
+  width: Fill (1,280px);
+  height: Hug (676px);
+  padding: 52px, 96px, 52px, 96px;
+  gap: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+.logo {
+  float: left;
+  margin-left: 24px;
+  margin-top: 8px;
+  width: 132px;
+  height: Fill(48px);
+  gap: 12px;  
+}
+.device-name-search {
+  width:  200px;
+  height: 15px;
+  padding: 5px 10px 5px 10px;
+  border:1px solid #999;
+  font-size:16px;
+  font-family: Tahoma;
+}
+.Search {
+  float: left;
+  margin-left: 485px;
+  margin-top: 60px;
+  width: 936px;
+  height: 56px;
+  border-width: 1;
+  border-style: solid;
+  border-radius: 5px;
+  gap: 24px;
+  .text-field {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: none;
+    width: 544px;
+    height: 24px;
+    Name: Subtitle 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    background: rgba(255, 0, 0, 0);
+  }
+  .qr {
+    float: left;
+    margin-left: 900px;
+    margin-top: -23px;
+    width: 24px;
+    height: 24px;
+  }
+}
+.Fav {
+  margin: auto;
+  width: 925px;
+  height: 364px;
+  .Header {
+    width: Hug (222px);
+    height: Hug (24px);
+    gap: 16px;
+    .heart {
+      float: left;
+      margin-top: 50px;
+      width: 20px;
+      height: 20px;
+    }
+    .Text {
+      float: left;
+      margin-top: 50px;
+      margin-left: 20px;
+      width: 186px;
+      height: 24px;
+      Name: Headline 6;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.15000000596046448px;
+      text-align: left;
+      color: #00000099;
+    }
+  }
+  .cart > table {
+    float: left;
+    width: Fill (925px);
+    height: Hug (324px);
+    padding: 0px, 12px, 0px, 12px;
+    border-radius: 4px;      
+    border: 1px solid #0000001F; 
+    background-color: #FFFFFF;
+  }
+} 
+.th1 {
+  float: left;
+  margin-left: 77px;
+  margin-top: 10px;
+  color: #00000099;
+  font-style: Roboto;
+}
+.th2 {
+  float: right;
+  margin-right: -62px;
+  margin-top: 10px;
+  color: #00000099;
+}
+td {
+  padding-left: 50px;
+  Width: 901px;
+}
+.device-img {
+  float: left;
+  margin-left: -30px;
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+}
+.device-name {
+  float: left;
+  margin-left: 20px;
+  margin-top: 32px;
+  margin-bottom: -10px;
+  width: 652;
+  height: 40;
+}
+select {
+  float: left;
+  margin-left: -40px;
+  Width: 97px;
+  Height: 24px;
+  Padding: 2px, 4px, 2px, 8px;
+  Gap: 4px;
+  color: #00000061;
+  border-color: #00000061;
+  border-radius: 3px;
+}
+.bell {
+  float: left;
+  margin-left: 20px;
+  width: 24;
+  height: 24;
+}
+.solid {
+  border-top: 3px solid #bbb;
+}
+.Card-data {
+  width: Fill(1088px);
+  height: 650px;
+  border-width: 1;
+  border-color: #00000000;
+  border-style: solid;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 5px 0px #00000033;
+  box-shadow: 0px 3px 1px 0px #0000001F;
+  box-shadow: 0px 2px 2px 0px #00000024;
+  
+  margin-top: 52px;
+  margin-bottom: 52px;
+  margin-left: 96px;
+  margin-right: 96px;
+}
+.Card-top {
+  width: Fill (1,088px);
+  height: Hug (73px);
+  .шапка {
+    width: Fill (1,088px);
+    height: Hug (72px);
+    background: #FFFFFF;
+  }
+}
+.Pic {
+  width: Hug (72px);
+  height: Hug (72px);
+  padding: 16px;
+  gap: 10px;
+  .unknown-device {
+    width: 40px;
+    height: 40px;
+  }
+}
+.full-name {
+  width: Hug (577px);
+  height: Fill (72px);
+  margin-top: -60px;
+  margin-left: 70px;;
+  .Title {
+    width: Hug (577px);
+    height: Hug (24px);
+    gap: 8px;
+    .Text {
+      width: 577px;
+      height: 24px;
+      Name: Headline 6;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.15000000596046448px;
+      text-align: left;
+    };
+  }
+}
+.ин-состояние {
+  width: Hug (165px);
+  height: Hug (20px);
+  .Text {
+    margin-left: 70px;
+    width: 83px;
+    height: 16px;
+    Name: Caption;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #00000099;
+  }
+  .Text-second {
+    width: 61px;
+    height: 16px;
+    Name: Caption;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #00000099;
+  }
+}
+.action {
+  width: Fill (439px);
+  height: Hug (56px);
+  padding: 8px;
+  .Work {
+    float: right;
+    margin-right: 95px;
+    margin-top: -55px;
+    width: Hug (113px);
+    height: Hug (40px);
+    padding: 8px;
+    gap: 10px;
+    .cardstate {
+      width: Fixed (97px);
+      height: Hug (24px);
+      padding: 2px, 4px, 2px, 8px;
+      animation-timing-function: ease-out;
+      animation-duration: 300ms;
+      .status {
+        width: Hug (59px);
+        height: Hug (20px);
+        gap: 8px;
+        border: 1px solid #23B04A;
+        border-radius: 3px;
+        color: #23B04A;
+        font-size: 14px;
+        .Text {
+          width: 59px;
+          height: 20px;
+          Name: Body 2;
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0.25px;
+          text-align: left;
+          color: #23B04A;
+        }
+      }
+    }
+  }
+  .Like {
+    float: right;
+    margin-right: 50px;
+    margin-top: -55px;
+    width: Hug (40px);
+    height: Hug (40px);
+    padding: 8px;
+    .red-heart {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .Settings {
+    float: right;
+    margin-right: 5px;
+    margin-top: -55px;
+    width: Hug (40px);
+    height: Hug (40px);
+    padding: 8px;
+    .gear {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+.Card-top > hr {
+  border: none;
+    background: #0000001F; 
+  height: 0.5px;
+}
+.Select-Action {
+  width: Fill (1,088px);
+  height: Hug (64px);
+  padding: 12px, 16px, 12px, 16px;
+  justify: space-between;
+  .List-item {
+    width: Hug (195px);
+    height: Hug (40px);
+    padding: 8px, 12px, 8px, 16px;
+    border-radius: 4px;
+    gap: 16px;
+    .Text {
+      width: 127px;
+      height: 24px;
+      Name: Body 1;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      text-align: left;
+    }
+  }
+}
+.List-item > select {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 220px;
+  height: 50px;
+  font-size: 24px;
+  border: none;
+  color: #000;
+}
+.save-btn {
+  width: Hug (253px);
+  height: Fixed (40px);
+  gap: 24px;
+  .btn {
+    float: right;
+    margin-top: 10px;
+    margin-right: 350px;
+    border: 1px solid #0000001F;
+    border-radius: 4px;
+    background: white;
+    .clock {
+      width: 43px;
+      height: 43px;
+      gap: 10px;
+    }
+  }
+    .Button-more {
+    float: right;
+    margin-top: 22px;
+    margin-right: -360px;
+    width: 45px;
+    border: none;
+    background: white;
+    border-left: 1px solid #23b04b86;
+    .More {
+      width: 7px;
+      height: auto;
+    }
+  } 
+  .Buttons {
+    float: right;
+    margin-top: 10px;
+    margin-right: -370px;
+    width: Hug (189px);
+    height: 50px;
+    padding: 8px, 8px, 8px, 16px;
+    border-radius: 4px;
+    border: 1px;
+    gap: 10px;
+    angle: 0 deg;
+    background: white;
+    border: 1px solid #0000001F;
+    .Text {
+      margin-left: 15px;
+      margin-right: 60px;
+      width: 126px;
+      height: 16px;
+      angle: 0 deg;
+      Name: Button;
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 1.25px;
+      text-align: left;
+      color: #23B04A;
+    }
+  }
+}
+.Date-Time-start-end {
+  width: Fill (1,088px);
+  height: Hug (56px);
+  padding: 8px, 16px, 8px, 16px;
+  .date-input {
+    width: Hug (400px);
+    height: Hug (40px);
+    border-radius: 4px;
+    .date-at {
+      float: left;
+      margin-top: 70px;
+      margin-left: -225px;
+      width: Fixed (180px);
+      height: Hug (40px);
+      padding: 10px, 8px, 10px, 8px;
+      border: 1px;
+      gap: 8px;
+      border: 1px solid #0000001F;
+    }
+    .Icon {
+      float: left;
+      margin-top: 70px;
+      margin-left: -40px;
+      width: Hug (40px);
+      height: Hug (36px);
+      padding: 10px, 12px, 10px, 12px;
+      gap: 10px;
+      .Trailing-Icon {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    .date-now {
+      float: left;
+      margin-top: 70px;
+      margin-left: -10px;
+      width: Fixed (180px);
+      height: Fill (40px);
+      padding: 10px, 8px, 10px, 8px;
+      border: 1px;
+      gap: 8px;
+      border: 1px solid #0000001F;
+    }
+  }
+}
+.times-chips {
+  width: Fill (1,088px);
+  height: Hug (60px);
+  padding: 8px, 16px, 20px, 16px;
+  gap: 16px;
+  .chips {
+    float: left;
+    margin-top: 100px;
+    margin-left: -385px;
+    width: Hug (494px);
+    height: Fill (32px);
+    gap: 8px;
+    .day {
+      width: Hug (59px);
+      height: Hug (32px);
+      padding: 6px, 12px, 6px, 12px;
+      gap: 10px;
+      border: none;
+      border-radius: 35px;
+      .Text {
+        width: 35px;
+        height: 20px;
+        Name: Body 2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        text-align: left;
+        color: #00000099;
+      }
+    }
+    .week {
+      width: Hug (75px);
+      height: Hug (32px);
+      padding: 6px, 12px, 6px, 12px;
+      gap: 10px;
+      border: none;
+      border-radius: 35px;
+      .Text {
+        width: 51px;
+        height: 20px;
+        Name: Body 2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        text-align: left;
+        color: #00000099;
+      }
+    }
+    .week2 {
+      width: Hug (85px);
+      height: Hug (32px);
+      padding: 6px, 12px, 6px, 12px;
+      gap: 10px;
+      border: none;
+      border-radius: 35px;
+      background: #C2E7C8;
+      .Text {
+        width: 61px;
+        height: 20px;
+        Name: Body 2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        text-align: left;
+        color: #00000099;
+      }
+    }
+    .month {
+      width: Hug (68px);
+      height: Hug (32px);
+      padding: 6px, 12px, 6px, 12px;
+      gap: 10px;
+      border: none;
+      border-radius: 35px;
+      .Text {
+        width: 44px;
+        height: 20px;
+        Name: Body 2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        text-align: left;
+        color: #00000099;
+      }
+    }
+    .month3 {
+      width: Hug (86px);
+      height: Hug (32px);
+      padding: 6px, 12px, 6px, 12px;
+      gap: 10px;
+      border: none;
+      border-radius: 35px;
+      .Text {
+        width: 62px;
+        height: 20px;
+        Name: Body 2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        text-align: left;
+        color: #00000099;
+      }
+    }
+    .half {
+      width: Hug (81px);
+      height: Hug (32px);
+      padding: 6px, 12px, 6px, 12px;
+      gap: 10px;
+      border: none;
+      border-radius: 35px;
+      .Text {
+        width: 57px;
+        height: 20px;
+        Name: Body 2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        text-align: left;
+        color: #00000099;
+      }
+    }
+  }
+}
+.accept, .accept2 {
+  width: 20px;
+  height: 20px;
+}
+.table-field {
+  Width: 1,088px;
+  Height: 319px;
+  Padding: 12px, 16px, 12px, 16px;
+}
+.work-info {
+  float: left;
+  margin-top: -400px;
+  margin-left: 20px;
+}
+.th-header {
+  font-weight: normal;
+  color: #00000061;
+  border-bottom: 2px solid #21212114;
+}
+.table-row-header {
+  Width: 1,056px;
+  Height: 45px;
+  .Duration {
+    Width: 160px;
+    Height: 44px;
+    Padding: 12px;
+    Gap: 10px;
+    .Начало {
+      Width: 136px;
+      Height: 20px;
+      Name: Body 2;
+      Font: Roboto;
+      Weight: 400;
+      Size: 14px;
+      Line-height: 20px;
+      letter-spacing: 0.25px;
+    }
+  }
+}
+.Type {
+  Width: 130px;
+  Height: 44px;
+  Padding: 12px;
+  .Text {
+    Width: 106px;
+    Height: 20px;
+    Name: Body 2;
+    Font: Roboto;
+    Weight: 400;
+    Size: 14px;
+    Line-height: 20px;
+    Letter-spacing: 0.25px;
+  }
+}
+th {
+  text-align: left;
+}
+.Duration {
+  float: left;
+  margin-left: -60px;
+  margin-top: -75px;
+}
+.Status {
+  float: left;
+  margin-left: -60px;
+}
+.Work-type {
+  float: left;
+}
+.Jobs-list {
+  float: left;
+  margin-left: -60px;
+}  
+.accept {
+  float: left;
+  margin-left: 180px;
+  margin-top: -130px;
+} 
+.accept2 {
+  float: left;
+  margin-left: 180px;
+  margin-top: -105px;
+} 
+.Result-text {
+  float: left;
+  margin-left: -60px;
+}
+.User-name {
+  float: left;
+  margin-left: -60px;
+}
+td {
+  text-align: left;
+}
+.Jobs {
+  Width: 486px;
+  Height: 44px;
+  Padding: 12px;
+  Gap: 10px;
+  .Jobs-list {
+    Width: 462px;
+    Height: 20px;
+    Name: Body 2;
+    Font: Roboto;
+    Weight: 400;
+    Size: 14px;
+    Line-height: 20px;
+    Letter-spacing: 0.25px;
+  }
+}
+.Result {
+  Width: 140px;
+  Height: 44px;
+  Padding: 12px;
+  Gap: 8px;
+  .Result-text {
+    Width: 116px;
+    Height: 20px;
+    Name: Body 2;
+    Font: Roboto;
+    Weight: 400;
+    Size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25 px;
+  }
+}
+.User {
+  Width: 140px;
+  Height: 44px;
+  Padding: 12px;
+  .User-name {
+    Width: 116px;
+    Height: 20px;
+    Name: Body 2;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+  }
+}
+.Cells {
+  width: 1,056px;
+  height: 124px;
+}
+td > .Duration  {
+  width: 160px;
+  height: 44px;
+  padding: 12px;
+  .Text {
+    width: 116px;
+    height: 20px;
+    Name: Body 2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #00000099;
+  }
+}
+td > .Status {
+  width: 130px;
+  height: 124px;
+  padding: 12px;
+  .В-работе {
+    width: 59px;
+    height: 20px;
+    Name: Body 2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #23B04A;
+  }
+  .Work-type {
+    width: 106px;
+    height: 80px;
+    Name: Body 2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #00000099;
+  }
+}
+td > .Jobs {
+  width: 486px;
+  height: 124px;
+  padding: 12px;
+  gap: 10px;
+  .Jobs-list {
+    width: 462px;
+    height: 100px;
+    Name: Subtitle 2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+
+    Name: Body 2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #00000099;
+  }
+}
+td > .Result {
+  width: 140px;
+  height: 124px;
+  padding: 12px, 6px, 12px, 12px;
+  .Result-text {
+    width: 102px;
+    height: 100px;
+    Name: Body 2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #00000099;
+  }
+}
+td > .User {
+  width: 140px;
+  height: 124px;
+  padding: 12px;
+  gap: 6px;
+  .User-name {
+    width: 116px;
+    height: 20px;
+    Name: Body 2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #2E9BC2;
+  }
+}
+td {
+  border-bottom: 2px solid #21212114;
+}
